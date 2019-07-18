@@ -1,0 +1,19 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: adjust-hue(lighten($green, 60%), 20deg);
+  font-size: 100%;
+  color: $dark;
+  font-weight: $normal;
+}
+
+#{headings()}{
+  color: darken(rgba($highlightColor, 0.6), 30%);
+  font-weight: $bold;
+}
+
+a {
+  text-decoration: none;
+}

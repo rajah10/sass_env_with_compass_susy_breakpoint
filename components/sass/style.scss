@@ -1,0 +1,30 @@
+// style.scss
+// ==============
+ 
+//Compass imports
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
+@import 'compass/css3/filter';
+@import "compass/css3/flexbox";
+@import "compass/css3/transition";
+
+//External Libraries
+@import "susy";
+@import "breakpoint";
+
+// Core Partial
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+
+// Modules Partial
+@import "modules/footer";
+@import "modules/service";
+@import "modules/nav";
+@import "modules/blogs";
+@import "modules/contactUs";
+@import "modules/header";
+@import "modules/works";

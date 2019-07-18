@@ -1,0 +1,8 @@
+#blogs{
+  height: 300px;
+  padding: 15px 0;
+
+  @include breakpoint($sm){
+    @include pad(1 1);
+  }
+}

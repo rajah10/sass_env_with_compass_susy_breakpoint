@@ -1,0 +1,26 @@
+@mixin backImage(
+  $image,
+  $grDir : to bottom,
+  $grStart: 0,
+  $grEnd: 0,
+  $position: center center,
+  $attachment: fixed
+  ){
+    background: linear-gradient($grDir, rgba(0,0,0, $grStart), rgba(0,0,0, $grEnd)),url($image);
+    background-repeat: no-repeat;
+    background-position: $position;
+    background-attachment: $attachment;
+    background-size: cover;
+} // backImage
+
+
+@mixin clearfix{
+  &:after,
+  &:before {
+    content: '';
+    display: table;
+  } // after and before
+  &:after{
+    clear: both;
+  } // after
+} //

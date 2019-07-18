@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2:200,400,600,800");
+
+@include border-box-sizing; //uses border box sizing like the old IE
+ 
+$susy: (
+  columns: 12,
+  container: 60em,
+  gutters: 1/4,
+  gutter-position: inside
+);
+
+// breakpoint
+$es  : 400px;
+$sm  : 600px;
+$md  : 960px;
+$wide: 1200px;
+
+// Add color palette
+$blue     : #44308C;
+$blueLight: #30618C;
+$green    : #168C80;
+$yellow   : #efc94c;
+$orange   : #e27a3f;
+$red      : #df4848;
+$pink     : #cd0069;
+$purple   : #6c71c4;
+$dark     : #000000;
+$light    : #ffffff;
+
+/* Color Theme Swatches in Hex */
+$Smart-Cities---Smart-Ukraine-1-hex: #44308C;
+$Smart-Cities---Smart-Ukraine-2-hex: #30618C;
+$Smart-Cities---Smart-Ukraine-3-hex: #047F8C;
+$Smart-Cities---Smart-Ukraine-4-hex: #168C80;
+$Smart-Cities---Smart-Ukraine-5-hex: #26A682;
+
+/* Color Theme Swatches in RGBA */
+$Smart-Cities---Smart-Ukraine-1-rgba: rgba(67,47,140, 1);
+$Smart-Cities---Smart-Ukraine-2-rgba: rgba(47,97,140, 1);
+$Smart-Cities---Smart-Ukraine-3-rgba: rgba(4,126,140, 1);
+$Smart-Cities---Smart-Ukraine-4-rgba: rgba(22,140,128, 1);
+$Smart-Cities---Smart-Ukraine-5-rgba: rgba(38,165,129, 1);
+
+/* Color Theme Swatches in HSLA */
+$Smart-Cities---Smart-Ukraine-1-hsla: hsla(253, 49, 36, 1);
+$Smart-Cities---Smart-Ukraine-2-hsla: hsla(208, 49, 36, 1);
+$Smart-Cities---Smart-Ukraine-3-hsla: hsla(185, 94, 28, 1);
+$Smart-Cities---Smart-Ukraine-4-hsla: hsla(174, 72, 31, 1);
+$Smart-Cities---Smart-Ukraine-5-hsla: hsla(163, 62, 39, 1);
+
+$backgroundColor  : $green;
+$typeDefault      : $dark;
+$navHover         : $yellow;
+$highlightColor   : $orange;
+$h1Color          : $red;
+$h2Color          : $purple;
+
+//Font variables
+$fontFamily: 'Exo 2', 'Helvetica Neue', Helvetica, sans-serif;
+
+$thin   : 200;
+$normal : 400;
+$bold   : 600;
+$heavy  : 800;
+
+$headFont   : $thin 1.5em/1.5 $fontFamily;
+$mainFont   : $thin 1em/1.5em $fontFamily;
+
+$headColor  : lighten($blue, 20);
